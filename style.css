@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Momo+Trust+Display&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+}
+
+body {
+    background-color: black;
+    padding: 8px 90px;
+}
+
+header .logo {
+    width: 170px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: 300;
+    padding: 15px;
+    font-size: 11px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+img {
+    width: 100%;
+}
+
+.one {
+    color: #ffff;
+}
+
+.one h1 {
+    margin-left: 2px;
+    /* font-family: "Momo Trust Display", sans-serif; */
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fan {
+    padding: 8px;
+}
+
+.fan2 {
+    padding: 8px;
+}
+
+.fan img {
+    width: 170px;
+}
+
+.fan2 img {
+    width: 170px;
+}
+
+.one {
+    padding: 20px;
+    text-align: justify;
+    margin-left: -8px;
+}
+
+
+h1 {
+    line-height: 45px;
+     font-family: "Momo Trust Display", sans-serif;
+}
+
+.one p {
+    margin-top: 20px;
+    margin-left: 4px;
+    margin-right: 130px;
+    line-height: 22px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.one .para {
+    font-weight: 100;
+}
+
+.para {
+    color: chartreuse;
+    font-weight: 400;
+    margin-left: 30px;
+    font-size: 26px;
+}
+
+.para2 {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+.para3 {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 180px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+
+.para4 {
+    text-align: justify;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 80;
+
+}
+
+.div3 {
+    display: flex;
+    background-color: chartreuse;
+    height: 110px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 30px 0px 30px;
+
+}
+
+.box1 p {
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 23px;
+    font-weight: 900;
+    color: black;
+}
+
+.box2 p {
+    text-align: justify;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+#but {
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: chartreuse;
+    background-color: black;
+    text-align: center;
+    border: 0px;
+    border-radius: 8px;
+    width: 240px;
+    height: 75px;
+    margin-right: 50px;
+    /* margin-top: 15px; */
+}
+
+#but:hover {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+hr {
+    color: #fff;
+    margin: 40px 30px 30px 30px;
+}
+
+.cont {
+    display: flex;
+}
+
+.div4 p {
+    color: #fff;
+    text-align: justify;
+    margin-right: 180px;
+    margin-left: 30px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.div4 a {
+    color: chartreuse;
+}
+
+.imge img {
+    width: 350px;
+    margin-right: 30px
+}
+
+hr {
+    color: #fff;
+    margin: 40px 30px 30px 30px;
+}
+
+.div5 {
+    color: #fff;
+
+}
+
+.div5 p {
+    text-align: justify;
+    margin-right: 350px;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.div6 {
+    display: flex;
+}
+
+.div6 p {
+    margin-top: -10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.div6 .one {
+    text-align: justify;
+    margin-top: -56px;
+    margin-right: 20px;
+    margin-left: 50px;
+
+}
+
+.div6 .two {
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.div6 .three {
+    text-align: justify;
+    /* margin-left: 70px; */
+    margin-right: 50px;
+}
+
+.div6 .for {
+    text-align: justify;
+    margin-top: -40px;
+    /* margin-left: 40px; */
+    margin-right: 40px;
+}
+
+.div6 .five {
+    text-align: justify;
+    margin-top: 1px;
+    margin-left: 66px;
+
+}
+
+.div6 img {
+    width: 100px;
+    padding: 50px;
+    margin-left: 20px;
+
+}
+
+.div6 p {
+    color: #fff;
+}
+
+hr {
+    color: #fff;
+    margin: 40px 30px 30px 30px;
+}
+
+.div7 {
+    display: flex;
+
+}
+
+.bathroom img {
+    width: 170px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.para p {
+    color: #fff;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 250px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.para h1 {
+    margin-left: 2px;
+    font-size: 34px;
+}
+
+hr {
+    color: #fff;
+    margin: 40px 30px 30px 30px;
+}
+
+.div8 {
+    color: #fff;
+}
+
+.div8 h1 {
+    margin-left: 30px;
+}
+
+.div8 p {
+    margin-left: 30px;
+    text-align: justify;
+    margin-right: 400px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.div9 {
+    display: flex;
+}
+.div9 img{
+    width: 320px;
+    height: 350px;
+    margin-right: 40px;
+    background-color: chartreuse;
+}
+
+.last p{
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.last p {
+    font-size: 17px;
+    font-weight: 200;
+    margin-left: 160px;
+    margin-right: 100px;
+    margin-top: -30px;
+    text-align: justify;
+    text-decoration: line-through;
+
+}
+
+.last h3 {
+    color: chartreuse;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 34px;
+}
