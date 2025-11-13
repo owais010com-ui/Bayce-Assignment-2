@@ -226,6 +226,7 @@ h1 {
 
 .div4 a {
     color: chartreuse;
+    font-size: 17px;
 }
 
 .imge img {
@@ -391,4 +392,5 @@ hr {
     margin-top: 20px;
     font-size: 20px;
     margin-left: 34px;
+
 }
